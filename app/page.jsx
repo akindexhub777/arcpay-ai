@@ -87,7 +87,7 @@ export default function Home() {
           2. Lancer l'IA et Enregistrer on-chain
         </button>
       )}
-
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/6.9.0/ethers.umd.min.js"></script>
       <p style={{ marginTop: '20px', color: '#aaa' }}>{status}</p>
     </div>
   );
