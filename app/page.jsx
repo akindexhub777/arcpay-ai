@@ -1,8 +1,8 @@
-// Mets ici ta NOUVELLE adresse de contrat IA déployée à l'étape 2
+// Mets ici ta NOUVELLE adresse
 const CONTRACT_ADDRESS = "0x18E8BD68bb9B0B246eDC91B5e957fbc9b8Ec9859"; 
 
-// Mets ici l'adresse du VRAI USDC trouvée sur ArcScan à l'étape 1
-const USDC_ADDRESS = "0x_ADRESSE_DU_VRAI_USDC";
+// Mets ici l'adresse du VRAI USDC
+const USDC_ADDRESS = "0x3600000000000000000000000000000000000000";
 
 const ABI = [
   "function createTask(string _prompt, uint256 _price) external",
